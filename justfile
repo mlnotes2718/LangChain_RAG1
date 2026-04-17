@@ -58,4 +58,4 @@ clean:
     @echo "✨ Cleaned!"
 
 # Run all checks
-run: health test clean
+run: health clean

@@ -34,7 +34,7 @@ LEO:  I'm here for you, Steve.
 
 STEVE:  We're good.  I know, that would upset everybody else's, like they...
 
-LEO:  No, it upset Paul when we moved from Tuesday to Wednesday.  He said, "What are you talking about?"	
+LEO:  No, it upset Paul when we moved from Tuesday to Wednesday.  He said, "What are you talking about?"
 
 STEVE:  Okay.  So the big topic actually from a week before from our listeners, I just didn't have a chance to dig into it and get to it and look at it and talk about it, was this bizarro sudden surprising FCC ban on new consumer routers.  It's important that it's not existing consumer routers.  No.  It's like, anyway, we're going to talk about this.  And by the time we're done with today's podcast, everybody listening will understand exactly what happened, why it doesn't really make any sense, lots of little "what I think about its" laced in there.  Several of our listeners did note that I did a poor job of wording the summary because in the little summary bullet points in the email that went out Sunday and is here at the top of the show notes, I said "The FCC drops a ban on all new consumer-grade routers."
 
@@ -164,7 +164,7 @@ STEVE:  No, I don't.  And I actually did get - there is a physical keyboard for 
 
 LEO:  Did you order that?
 
-STEVE:  Yeah, I tried it.  It's crap.  It's no good. 
+STEVE:  Yeah, I tried it.  It's crap.  It's no good.
 
 LEO:  No.
 
@@ -180,7 +180,7 @@ STEVE:  I hate it.  It is the biggest tradeoff that, I mean, I get it that that'
 
 LEO:  Oh, that's nice.  It's pretty.
 
-STEVE:  Yeah, it is.  And it allows you go associate itself with up to three different devices, and you choose which one you want.  So it can appear as one of three different keyboards.  And so if I know I'm going to be typing something at length. Normally, though, I'll just do - I was like, I'm so annoyed also, Leo, with this schism between iPhone and Windows.  Like Apple just refuses to accept the fact that Windows owns the desktop, and they're only willing to connect to their Mac in a seamless fashion.  So I'll, like, write something long.  Then I'll email it to myself, get the email on my phone, select it all, drop it into Message and send it.  It's like, god, really?  This is what I'm being made - it's one of the reasons I'm so annoyed with Apple.  But anyway...  
+STEVE:  Yeah, it is.  And it allows you go associate itself with up to three different devices, and you choose which one you want.  So it can appear as one of three different keyboards.  And so if I know I'm going to be typing something at length. Normally, though, I'll just do - I was like, I'm so annoyed also, Leo, with this schism between iPhone and Windows.  Like Apple just refuses to accept the fact that Windows owns the desktop, and they're only willing to connect to their Mac in a seamless fashion.  So I'll, like, write something long.  Then I'll email it to myself, get the email on my phone, select it all, drop it into Message and send it.  It's like, god, really?  This is what I'm being made - it's one of the reasons I'm so annoyed with Apple.  But anyway...
 
 LEO:  Yeah.  Apparently, you can also look at your purchases on the Apple ID and see when the oldest purchase you made...
 
@@ -194,7 +194,7 @@ LEO:  Ah.
 
 STEVE:  When I went on that...
 
-LEO:  Well, they didn't come out until 2006, so I know you didn't have an iPhone in 2005. 
+LEO:  Well, they didn't come out until 2006, so I know you didn't have an iPhone in 2005.
 
 STEVE:  Oh.  Oh, okay.  So I was still Blackberry, happily carrying my Blackberry around.
 
@@ -228,7 +228,7 @@ Unfortunately, those early days now look quaint in retrospect.  As users became 
 
 The next thing to happen was the evolution of the embedded tracking object from a relatively benign now, in retrospect, just a little JPEG, GIF, or PNG image pixel, into a reference to a remote host's HTML or JavaScript.  Arranging to run a third-party's remotely supplied JavaScript now is the ultimate goal, and that can be done simply by directly referencing a third-party JavaScript resource in the hosting page's HTML.  You know, just whatever it is .js, for JavaScript, just like a site's own provided JavaScript, the third-party JavaScript will be loaded into and run by every page the user displays.  The problem we have now is that we've invited foreign code to run inside our web browser, and the behavior of that code, the very code itself, is subject to unilateral change by that third-party at any time.  And it is from such changes that the practice of web browser fingerprinting has evolved.  Right?
 
-It should now be clear why the continued use of the term "pixel," you know, for anything Meta or TikTok are doing is laughable.  It's not a pixel any longer, although it still goes by that name.  What we have now is essentially "hostile, uncontrolled explicitly privacy-compromising code execution by unseen third parties."  That's the threat environment that users and their browsers face today.  It's completely changed over the course of the last two decades, the duration of this podcast, we've seen all of this.  
+It should now be clear why the continued use of the term "pixel," you know, for anything Meta or TikTok are doing is laughable.  It's not a pixel any longer, although it still goes by that name.  What we have now is essentially "hostile, uncontrolled explicitly privacy-compromising code execution by unseen third parties."  That's the threat environment that users and their browsers face today.  It's completely changed over the course of the last two decades, the duration of this podcast, we've seen all of this.
 
 One of the points I wanted to make before we turn to last week's news about LinkedIn is just how much of this behavior is completely hidden from anyone who is clicking links and wandering around the web.  You know, the expression "out of sight, out of mind" has never applied more than it does here.  This unseen behavior has been a problem since the first use of a third-party cookie for surreptitiously tracking user movement across the web.  Through the intervening decades such behavior has exploded, and the only thing that has any chance of reining it in on a wholesale level, not just like we who care running add-ons like uBlock Origin, but like actually affecting everyone, is government legislation, which will eventually wrestle this stuff to the ground, criminalizing it, and just making it impossible to continue.  And there we probably have the EU to thank because they tend to be pioneering this.
 
@@ -246,7 +246,7 @@ STEVE:  Yeah, because they're not, you know...
 
 LEO:  Not a pixel.  But they just need tracking of some kind.
 
-STEVE:  And it's interesting, too, because it does demonstrate how much they've just come to take it for granted.  
+STEVE:  And it's interesting, too, because it does demonstrate how much they've just come to take it for granted.
 
 LEO:  Yeah.  Oh, yeah.  Absolutely.
 
@@ -538,7 +538,7 @@ And here it comes:  "WordPress's plugin architecture," they wrote, "is fundament
 
 Okay.  In other words, things with WordPress are getting worse, not better.  They wrote:  "Why, after over two decades, is WordPress plugin security so problematic?  A WordPress plugin is a PHP script that hooks directly into WordPress to add or modify functionality.  There is no isolation.  A WordPress plugin has direct access to the WordPress site's database and filesystem.  When you install a WordPress plugin, you are trusting it with access to nearly everything, and trusting it to handle every malicious input or edge case perfectly.
 
-"EmDash solves this.  In EmDash, each plugin runs in its own isolated sandbox: a Dynamic Worker.  Rather than giving direct access to underlying data, EmDash provides the plugin with capabilities via bindings, based on what the plugin explicitly declares it needs in its manifest.  This security model has a strict guarantee:  an EmDash plugin can only perform the actions explicitly declared in its manifest.  You can know and trust upfront, before installing a plugin, exactly what you are granting it permission to do, similar to going through an OAuth flow and granting a third-party app a specific set of scoped permissions.  WordPress plugin security is such a real risk that WordPress.org manually reviews and approves each plugin in its marketplace.  At the time of writing, that review queue is over 800 plugins long, and takes at least two weeks to traverse.  
+"EmDash solves this.  In EmDash, each plugin runs in its own isolated sandbox: a Dynamic Worker.  Rather than giving direct access to underlying data, EmDash provides the plugin with capabilities via bindings, based on what the plugin explicitly declares it needs in its manifest.  This security model has a strict guarantee:  an EmDash plugin can only perform the actions explicitly declared in its manifest.  You can know and trust upfront, before installing a plugin, exactly what you are granting it permission to do, similar to going through an OAuth flow and granting a third-party app a specific set of scoped permissions.  WordPress plugin security is such a real risk that WordPress.org manually reviews and approves each plugin in its marketplace.  At the time of writing, that review queue is over 800 plugins long, and takes at least two weeks to traverse.
 
 "The vulnerability surface area of WordPress plugins is so large that, in practice, all parties rely on marketplace reputation, ratings, and reviews.  And because WordPress plugins run in the same execution context as WordPress itself, and are so deeply intertwined with WordPress code, some argue they must carry forward WordPress's GPL license.  These realities combine to create a chilling effect on developers building plugins, and on platforms hosting WordPress sites.  Plugin security is the root of this problem.  Marketplace businesses provide trust when parties otherwise cannot easily trust each other.
 
@@ -550,7 +550,7 @@ LEO:  Yeah, it's very interesting.  You know, I hope they support it.  And, I me
 
 STEVE:  Yeah, I think if we see a core of add-ons emerge which solve the problems that people have, and you look at the security model that it offers, you know, why, if you were starting from scratch, would you use a WordPress CMS as opposed to an EmDash CMS [crosstalk] either?
 
-LEO:  There's another reason for them doing this.  They want to make something that is easily manipulated by AI, that an AI could build a website, easily build a website on.  And [crosstalk] certainly do that with WordPress, I think this is designed specifically with that in mind.  
+LEO:  There's another reason for them doing this.  They want to make something that is easily manipulated by AI, that an AI could build a website, easily build a website on.  And [crosstalk] certainly do that with WordPress, I think this is designed specifically with that in mind.
 
 STEVE:  I bet you are exactly right.
 
@@ -614,7 +614,7 @@ Scott continues, writing:  "Router security deserves serious attention.  But in 
 
 "To respond to the national security risks posed by Huawei and ZTE, the FCC followed a deliberative process and produced a carefully constructed regulatory framework.  Congress identified the specific companies as threats in Section 889 of the Fiscal Year 2019 National Defense Authorization Act.  The FCC designated Huawei and ZTE as national security threats in June of 2020, published its initial Covered List in March of 2021, and adopted a Notice of Proposed Rulemaking and Notice of Inquiry on June 17th, 2021, initiating two separate dockets and inviting public comment.  The Commission then adopted a Report and Order in November of 2022, with a unanimous 4-0 vote, and simultaneously issued a Further Notice of Proposed Rulemaking seeking additional comment on issues it hadn't yet resolved.  That process took time.  But it also produced outcomes that it could never have achieved in a weekend."
 
-Now, we could argue that's bureaucracy.  And bureaucracy has overhead, and it takes time.  But what it does is it tends to keep it from making mistakes.  And as he said, just deciding to do it over the weekend and then doing it, well, you get the kind of things that we've been seeing from this administration for the last, what, year and three months.  
+Now, we could argue that's bureaucracy.  And bureaucracy has overhead, and it takes time.  But what it does is it tends to keep it from making mistakes.  And as he said, just deciding to do it over the weekend and then doing it, well, you get the kind of things that we've been seeing from this administration for the last, what, year and three months.
 
 "The comment process," he writes, "produced differentiated treatment based on actual risk.  The FCC did not treat all five Chinese companies identically.  It fully banned new Huawei and ZTE equipment, but took a more nuanced approach with Hikvision, Dahua, and Hytera.  The FCC agreed with commenters who argued that these companies posed different levels and kinds of risk.  The FCC required those three companies to document the safeguards they would put in place, and froze their applications pending that review.  The router ban, by contrast, as this one, treats a Netgear router assembled in Vietnam identically to a TP-Link router designed in China.
 
@@ -767,5 +767,3 @@ LEO:  No.  Well, that's a mistake.  I mean, admittedly, we probably should have.
 STEVE:  Well, the mistake is like rattling sabers between us and China.  We ought to recognize that it is a good relationship, it's mutually beneficial, and we ought to just have a dtente here and say, look, you know, you want us to buy your stuff.  We want you to make the stuff that we're going to buy.  So come on.
 
 Copyright (c) 2026 by Steve Gibson and Leo Laporte.  SOME RIGHTS RESERVED.  This work is licensed for the good of the Internet Community under the Creative Commons License v2.5.  See the following Web page for details:  https://creativecommons.org/licenses/by-nc-sa/2.5/.
-
-

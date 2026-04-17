@@ -11,3 +11,9 @@ dependencies = [
     "langchain-text-splitters>=1.1.2",
     "python-dotenv>=1.2.2",
 ]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+    "rust-just>=1.49.0",
+]
