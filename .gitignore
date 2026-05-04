@@ -289,3 +289,4 @@ $RECYCLE.BIN/
 gitleaks_report.csv
 
 /vector_db/
+.codex
