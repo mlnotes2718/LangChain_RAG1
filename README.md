@@ -37,6 +37,31 @@ Question -> Retriever -> Prompt + LLM -> Answer
 
 The first notebook creates the vector database. The second notebook depends on that database already existing.
 
+## Roadmap Mapping
+
+This tutorial is the first hands-on checkpoint in the broader [`RAG Learning Roadmap`](docs/RAG_Learning_Readmap.md). It gives you a working baseline before moving into more advanced retrieval, evaluation, orchestration, and production concerns.
+
+| Roadmap phase | How this tutorial connects | Where to look |
+| --- | --- | --- |
+| Phase 1: Foundations | Introduces the core building blocks: documents, chunks, embeddings, vector stores, and similarity retrieval. | [`Rag1_Add_Docs.ipynb`](notebook/Rag1_Add_Docs.ipynb), [`src/rag1_add_docs.py`](src/rag1_add_docs.py) |
+| Phase 2: Basic RAG Pipeline | Implements the full end-to-end flow: load document, split, embed, store, retrieve, prompt, call LLM, and parse the answer. | [`Rag1_Add_Docs.ipynb`](notebook/Rag1_Add_Docs.ipynb), [`Rag1_Query.ipynb`](notebook/Rag1_Query.ipynb) |
+| Phase 3: Retrieval Optimization | Includes the first tuning knobs: `chunk_size`, `chunk_overlap`, and retriever `k`. The debug cell shows which chunks were retrieved. | `CHUNK_SIZE`, `CHUNK_OVERLAP`, and `RETRIEVAL_K` in [`src/`](src/) |
+| Phase 4: Advanced Retrieval Techniques | Not implemented yet. This tutorial is the baseline you can extend with multi-query retrieval, query rewriting, hybrid search, or metadata filters. | Suggested follow-up after the basic chain works |
+| Phase 5: Context Optimization | Not implemented yet. The current chain sends raw retrieved chunks directly to the prompt. | Add compression or reranking after retrieval |
+| Phase 6: Adaptive & Iterative RAG | Not implemented yet. The current pipeline runs one retrieval pass per question. | Add retry logic when retrieved context is insufficient |
+| Phase 7: Agentic RAG | Not implemented yet. The model does not choose tools or decide whether to retrieve again. | Add a control loop or ReAct-style agent later |
+| Phase 8: Workflow Orchestration | Not implemented yet. The flow is an LCEL chain, not a graph with state and branches. | Move the ingestion/query flow into LangGraph later |
+| Phase 9: Evaluation & Debugging | Partially introduced through retrieved-chunk inspection. This is the first step toward diagnosing weak answers. | Debug cell in [`Rag1_Query.ipynb`](notebook/Rag1_Query.ipynb) |
+| Phase 10: Production Considerations | Partially introduced by separating ingestion from querying, which mirrors real production RAG architecture. | See "Why Ingestion and Query Are Separate" below |
+
+In roadmap terms, this repository currently teaches:
+
+```text
+Phase 1 foundations -> Phase 2 basic RAG -> early Phase 3/9/10 habits
+```
+
+Use this tutorial as the "known-good simple RAG" before experimenting with more advanced patterns. When answers are poor, first inspect the retrieved chunks; if retrieval is poor, tune chunking and `k`; if retrieval is good but answers are weak, improve the prompt or output formatting.
+
 ## Why Ingestion and Query Are Separate
 
 In production RAG systems, document ingestion and user querying are usually separate workflows.
